@@ -1,0 +1,26 @@
+{
+    "name": "dnsprogress/logman",
+    "description": "PHP SDK package used to create logging",
+    "keywords": [
+        "psr-4",
+        "psr-7",
+        "psr-12",
+        "psr-18"
+    ],
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^2.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Logman\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DNS Progress",
+            "email": "dnsprogress@gmail.com"
+        }
+    ]
+}
