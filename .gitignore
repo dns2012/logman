@@ -1,0 +1,15 @@
+/vendor
+*.swp
+.phpunit.result.cache
+.docker
+package-lock.json
+
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+!/.idea/runConfigurations
+
+/.vscode
+
+.DS_Store
+*.log
