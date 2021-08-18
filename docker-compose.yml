@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  httpd:
+    image: romeoz/docker-apache-php:7.2
+    environment:
+      - COMPOSER_ALLOW_SUPERUSER=y
+    volumes:
+        - ./apache_app.conf:/etc/apache2/sites-enabled/app.conf
+        - ./:/var/www/app
+    ports:
+      - 8001:80
